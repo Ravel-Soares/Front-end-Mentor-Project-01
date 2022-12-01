@@ -1,0 +1,39 @@
+.cards-box{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    max-width: 1121px;
+}
+
+.card{
+    display: flex;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+}
+
+.card-texts{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-texts h1{
+    color:  rgb(150, 150, 150);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-texts h2{
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+}
+
+.card-texts p{
+    color: rgb(150, 150, 150);
+}
+

@@ -1,0 +1,22 @@
+.black-box{
+    background-color: black;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+}
+
+.black-box h1{
+    color: orange;
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+
+.black-box .title{
+    color: white;
+    margin:  0 0 10px 0;
+}
+
+.black-box .sub-title{
+    color: rgba(255, 255, 255, 0.603);
+    margin:  0 0 20px 0 ;
+}
