@@ -1,5 +1,5 @@
 main{
-    max-width: 1121px;
+    max-width: 87%;
     display: flex;
     justify-content: space-between;
     margin-left: 90px
@@ -8,6 +8,11 @@ main .left-content{
     width: 65%;
     display: flex;
     flex-direction: column;
+}
+
+main .left-content img{
+    max-width: 800px;
+    background-size: cover;
 }
 
 main .right-content{

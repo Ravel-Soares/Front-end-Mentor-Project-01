@@ -4,7 +4,7 @@
     margin-top: 50px;
     margin-bottom: 100px;
     justify-content: space-between;
-    max-width: 1121px;
+    width: 87%;
 }
 
 .card{
@@ -12,8 +12,8 @@
 }
 
 .card img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .card-texts{

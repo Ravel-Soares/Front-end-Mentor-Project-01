@@ -2,6 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 50px 90px;
+    width: 87%;
 }
 
 header h1{
