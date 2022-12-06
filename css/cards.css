@@ -12,8 +12,13 @@
 }
 
 .card img{
+<<<<<<< HEAD
     max-width: 150px;
     height: 100%;
+=======
+    width: 150px;
+    height: 150px;
+>>>>>>> ff30f1d2559fb8bd1fd53c26cdb7ed1f02710322
 }
 
 .card-texts{

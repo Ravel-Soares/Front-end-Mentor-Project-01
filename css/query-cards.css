@@ -2,6 +2,7 @@
     .cards-box{
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
         margin: 15% auto;
     }
     .card{
@@ -12,4 +13,8 @@
         margin-bottom: 5%;
     }
 
+=======
+        margin: 50px 0
+    }
+>>>>>>> ff30f1d2559fb8bd1fd53c26cdb7ed1f02710322
 }

@@ -4,8 +4,13 @@
     main{
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
         width: 97%;
         margin: auto;
+=======
+        width: 100%;
+        margin: 0;
+>>>>>>> ff30f1d2559fb8bd1fd53c26cdb7ed1f02710322
     }
     main .left-content{
         width: 100%;
@@ -21,7 +26,11 @@
 
     .min-box h1{
         font-size: 40px;
+<<<<<<< HEAD
         width: 100%;
+=======
+        width: 300px;
+>>>>>>> ff30f1d2559fb8bd1fd53c26cdb7ed1f02710322
     }
 
     main .right-content{
@@ -29,6 +38,9 @@
     }
     /* content main//  */
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ff30f1d2559fb8bd1fd53c26cdb7ed1f02710322
 }
