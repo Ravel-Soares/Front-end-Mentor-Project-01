@@ -1,0 +1,60 @@
+@media (max-width: 600px){
+    .check {
+        position: absolute;
+        display: none;
+      }
+      
+      .hamburguer {
+          display: block;
+          position: absolute;
+          right: 10%;
+          top: 4%;
+         
+      }
+      
+      .hamburguer label{
+          position: relative;
+          display: block;
+          height: 22px;
+          width: 30px;
+          z-index: 1;
+      
+      }
+      
+      .hamburguer label span{
+          position: absolute;
+          display: block;
+          height: 5px;
+          width: 50px;
+          border-radius: 30px;
+          background: black;
+          transition: .25s ease-in-out;
+      
+      }
+      
+      .hamburguer label span:nth-child(1){
+          top: 0;
+      }
+      
+      .hamburguer label span:nth-child(2){
+          top: 8px;
+      }
+      
+      .hamburguer label span:nth-child(3){
+          top: 16px;
+      }
+      
+      .check:checked + label span:nth-child(1){
+          transform: rotate(-45deg);
+          top: 8px;
+      }
+      
+      .check:checked + label span:nth-child(2){
+          opacity: 0;
+      }
+      
+      .check:checked + label span:nth-child(3){
+          transform: rotate(45deg);
+          top: 8px;
+      }
+}

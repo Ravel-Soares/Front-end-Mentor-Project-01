@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    .cards-box{
+        display: flex;
+        flex-direction: column;
+        margin: 15% auto;
+    }
+    .card{
+        margin-bottom: 5%;
+    }
+    .card:nth-child(2){
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+}

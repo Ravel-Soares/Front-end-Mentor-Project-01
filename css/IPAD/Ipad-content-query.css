@@ -1,0 +1,50 @@
+@media (min-width:600px) and (max-width: 900px){
+    .min-box-2{
+        display: flex;
+        margin: 20px 0;
+        flex-direction: column;
+    }
+
+    .min-box h1{
+        font-size: 60px;
+        width: 100%;
+        font-weight: 600;
+      }
+
+    .box-read-more p{
+       color: rgb(129, 127, 127);
+       margin: 0 0 15px 0;
+       width: 100%;
+       }  
+}
+
+
+@media (min-width:900px) and (max-width: 1300px){
+    .min-box-2{
+        display: flex;
+        margin: 20px 0;
+        flex-direction: column;
+    }
+
+    .min-box h1{
+        font-size: 60px;
+        width: 100%;
+        font-weight: 600;
+      }
+
+    .box-read-more p{
+       color: rgb(129, 127, 127);
+       margin: 0 0 15px 0;
+       width: 100%;
+       }  
+}
+
+
+@media (min-width:600px) and (max-width: 900px){
+    .cards-box{
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-bottom: 1%;
+    }
+}
