@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    margin: 3% auto;
+    margin: 50px 7.7%;
     width: 87%;
 }
 
@@ -29,6 +29,8 @@ header nav li{
 header nav li:hover{
     color: hsl(35, 77%, 62%);
 }
+
+
 
 .btn-mobile {
     display: none;

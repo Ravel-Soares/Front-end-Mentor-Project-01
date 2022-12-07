@@ -2,7 +2,7 @@ main{
     max-width: 87%;
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin-left: 7.7%;
 }
 main .left-content{
     width: 65%;
@@ -16,7 +16,7 @@ main .left-content img{
 }
 
 main .right-content{
-    width: 28%;
+    width: 27%;
 }
 
 .box {
@@ -39,15 +39,18 @@ main .right-content{
 
 .min-box h1{
   font-size: 60px;
-  width: 350px;
+  max-width: 600px;
   font-weight: 600;
 }
 
 .box-read-more p{
  color: rgb(129, 127, 127);
  margin: 0 0 15px 0;
- width: 320px;
+ max-width: 450px;
 }
+
+
+
 
 .min-box-2 button{
     background-color: hsl(5, 85%, 63%);
