@@ -11,6 +11,12 @@
   <link rel="stylesheet" href="./css/black-box.css">
   <link rel="stylesheet" href="./css/font.css">
   <link rel="stylesheet" href="./css/cards.css">
+  <link rel="stylesheet" href="./css/query.css">
+  <link rel="stylesheet" href="./css/query-cards.css">
+  <link rel="stylesheet" href="./css/query-menu.css">
+  <link rel="stylesheet" href="./css/hamburger-button.css">
+  <link rel="stylesheet" href="./css/black-box-query.css">
+  <link rel="stylesheet" href="./css/IPAD/Ipad-content-query.css">
 
   
   <title>Frontend Mentor | News homepage</title>
@@ -26,8 +32,15 @@
 
 <!-- MENU -->
   <header>
-    <h1>W.</h1>
-
+    <h1><img src="./assets/images/logo.svg" alt="" srcset=""></h1>
+    <div class="hamburguer">
+      <input class="check btn-mobile" type="checkbox" id="chackbox-menu">
+      <label  for="chackbox-menu">
+       <span></span>
+       <span></span>
+       <span></span>
+      </label>
+    </div>
     <nav>
       <li>Home</li>
       <li>New</li>
@@ -44,7 +57,7 @@
 
   <main>
     <div class="box left-content">
-    <img src="./assets/images/image-web-3-desktop.jpg" max-width="800px" alt="">
+    <img src="./assets/images/image-web-3-desktop.jpg" alt="">
     
     <div class="min-box-2">
       <div class="min-box">
@@ -102,7 +115,7 @@
         <h2>Reviving Retro PCs</h2>
          <p>What happens when old PCs are given modern upgrades?</p>
       </div>
-
+   </div>
 
       <div class="card">
         <img src="./assets/images/image-gaming-growth.jpg" alt="">
@@ -112,7 +125,6 @@
              <p>What happens when old PCs are given modern upgrades?</p>
           </div>
   </div>
-</div>
 </div>
 
 <!-- CARDS// -->
@@ -166,6 +178,9 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
+
+
+    <script src="./index.js"></script>
   </div>
 </body>
 </html>

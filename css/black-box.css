@@ -1,12 +1,12 @@
 .black-box{
-    background-color: black;
+    background-color: hsl(240, 100%, 5%);
     justify-content: center;
     padding: 20px;
-    width: 400px;
+    width: 100%;
 }
 
 .black-box h1{
-    color: orange;
+    color: hsl(35, 77%, 62%);
     font-size: 40px;
     margin: 0 0 20px 0;
 }
@@ -14,6 +14,11 @@
 .black-box .title{
     color: white;
     margin:  0 0 10px 0;
+    font-weight: 200;
+}
+
+.black-box .title:hover{
+    color: hsl(35, 77%, 62%);
 }
 
 .black-box .sub-title{

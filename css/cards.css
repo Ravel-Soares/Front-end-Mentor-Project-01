@@ -1,10 +1,10 @@
 .cards-box{
     display: flex;
-    margin-left: 90px;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
     justify-content: space-between;
-    max-width: 1121px;
+    width: 87%;
 }
 
 .card{
@@ -12,8 +12,8 @@
 }
 
 .card img{
-    width: 100px;
-    height: 100px;
+    max-width: 150px;
+    height: 100%;
 }
 
 .card-texts{
@@ -31,6 +31,11 @@
 .card-texts h2{
     font-weight: 700;
     margin: 10px 0 20px 0;
+    cursor: pointer;
+}
+
+.card-texts h2:hover{
+    color: hsl(35, 77%, 62%);
 }
 
 .card-texts p{

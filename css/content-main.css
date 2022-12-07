@@ -1,8 +1,8 @@
 main{
-    max-width: 1121px;
+    max-width: 87%;
     display: flex;
     justify-content: space-between;
-    margin-left: 90px
+    margin: auto;
 }
 main .left-content{
     width: 65%;
@@ -10,8 +10,13 @@ main .left-content{
     flex-direction: column;
 }
 
+main .left-content img{
+    max-width: 100%;
+    background-size: cover;
+}
+
 main .right-content{
-    width: 27%;
+    width: 28%;
 }
 
 .box {
@@ -45,9 +50,15 @@ main .right-content{
 }
 
 .min-box-2 button{
-    background-color: black;
+    background-color: hsl(5, 85%, 63%);
     color: white;
     padding: 10px 35px;
     margin: 10px 0;
     cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.min-box-2 button:active{
+    background-color:  black;
 }
