@@ -10,9 +10,13 @@ main .left-content{
     flex-direction: column;
 }
 
-main .left-content img{
-    max-width: 100%;
+main .img{
+    height: 300px;
+    width: 100%;
+    background-image: url("../assets/images/image-web-3-desktop.jpg");
     background-size: cover;
+    background-position: center;
+
 }
 
 main .right-content{
